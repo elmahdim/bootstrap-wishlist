@@ -1,4 +1,6 @@
-bootstrap-wishlist
+Bootstrap Wishlist v0.1.0
 ==================
 
-Bootstrap Wishlist
+
+
+
