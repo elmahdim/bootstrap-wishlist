@@ -19,11 +19,10 @@ Bootstrap Wishlist v0.1.0
 <script src="path/bootstrap.wl.js"><script>
 ```
 
----
 
-## Usgae:
+## Usage:
 
-## Dropdowns
+### Dropdowns
 
 ```html
 <div class="btn-group">
@@ -38,7 +37,7 @@ Bootstrap Wishlist v0.1.0
 
 ---
 
-## Input group `:focus`
+### Input group `:focus`
 
 
 ```html
