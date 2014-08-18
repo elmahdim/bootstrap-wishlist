@@ -7,8 +7,8 @@ Bootstrap Wishlist v0.1.0
 
 ## Get Started
 
-* `$ git clone https://github.com/elmahdim/bootstrap-wishlist`
-* [Download](/elmahdim/bootstrap-wishlist/archive/master.zip)
+`$ git clone https://github.com/elmahdim/bootstrap-wishlist`
+[Download](/elmahdim/bootstrap-wishlist/archive/master.zip)
 
 ## Install
 
