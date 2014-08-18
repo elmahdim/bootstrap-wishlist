@@ -5,6 +5,24 @@ Bootstrap Wishlist v0.1.0
 
 ---
 
+## Install
+
+```html
+<!-- Bootstrap core CSS -->
+<link rel="stylesheet" href="path/bootstrap.css">
+<!-- Bootstrap Wishlist CSS -->
+<link rel="stylesheet" href="path/bootstrap.wl.css">
+
+<!-- Bootstrap core Javascript -->
+<script src="path/bootstrap.js"><script>
+<!-- Bootstrap Wishlist Javascript -->
+<script src="path/bootstrap.wl.js"><script>
+```
+
+---
+
+## Usgae:
+
 ## Dropdowns
 
 ```html
