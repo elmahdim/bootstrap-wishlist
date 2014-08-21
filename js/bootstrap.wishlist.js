@@ -1,5 +1,5 @@
 ﻿/* 
- * Written for: Bootstrap Wishlist v0.1.0
+ * Written for: Bootstrap Wishlist v0.1.1
  * Author: Mahmoud Elmhadi
  * Author Url: elmahdim.com
  * Twitter   : @ElmahdiMahmoud
@@ -26,3 +26,5 @@
 
     });
 })(jQuery);
+
+!function(e){e.fn.previewImg=function(n){var i={image:null},n=e.extend({},i,n);return this.each(function(){function i(i){if(i.files&&i.files[0]){var t=new FileReader;t.onload=function(i){e("[data-preview='"+n.image+"']").attr("src",i.target.result)},t.readAsDataURL(i.files[0]),e(".upload-btn").hide()}}var t=e(this);t.on("change",function(){i(this)})})}}(jQuery,window,document);
