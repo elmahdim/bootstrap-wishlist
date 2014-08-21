@@ -1,34 +1,46 @@
+// Written for: Bootstrap Wishlist v0.1.1
+// Author: Mahmoud Elmhadi
+// Author Url: elmahdim.com
+// Twitter   : @ElmahdiMahmoud
+// Licensed under http://opensource.org/licenses/MIT
+ 
 @import "compass", "PATH-TO-BOOTSTRAP-VARIABLES";
 
 // [ Button Outline ]
 .btn {
-    &.btn-outline { background-color: transparent; }
-    &.btn-default { color: inherit; }
+  &.btn-outline { 
+    background-color: transparent; 
+
+    &.btn-default { color: inherit;  }
     &.btn-primary { color: $brand-primary; }
     &.btn-success { color: $brand-success; }
     &.btn-info    { color: $brand-info; }
     &.btn-warning { color: $brand-warning; }
-    &.btn-danger  { color: $brand-danger; }
+    &.btn-danger  { color: $brand-danger;  }
+  }
 }
 
 // [ Alert Outline ]
 .alert {
-    &.alert-outline { background-color: transparent; }
-    &.alert-default { color: inherit; }
+    &.alert-outline { 
+    background-color: transparent; 
+
+    &.alert-default { color: inherit;  }
     &.alert-primary { color: $brand-primary; }
     &.alert-success { color: $brand-success; }
-    &.alert-info    { color: $brand-info; }
+    &.alert-info    { color: $brand-info;    }
     &.alert-warning { color: $brand-warning; }
-    &.alert-danger  { color: $brand-danger; }
+    &.alert-danger  { color: $brand-danger;  }
+  }
 }
 
-// [ Input group ]
+// [ input group:focus ]
 .input-group {
-    .btn, .form-control {
+    .btn, 
+    .form-control {
         height: $input-height-base;
         @include single-transition(none);
     }
-	// #default
     &.default-input-group {
         .form-control {
             border-right: 0;
@@ -44,8 +56,7 @@
             }
         }
     }
-	// #prev
-    &.prev-input-group {
+		&.prev-input-group {
         width: 100%;
         .form-control {
             float: right;
@@ -80,7 +91,7 @@
             }
         }
     }
-    .input-group-btn {
+		.input-group-btn {
         .btn {
             &:hover {
                 border-color: #ccc;
@@ -88,4 +99,93 @@
             }
         }
     }
+}
+
+// [ File input  ]
+.preview-image {
+    width: 140px;
+    height: 140px;
+    line-height: 140px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #f0f0f0;
+    position: relative;
+	  text-align: center;
+    img { max-width: 100%; }
+  	&:hover {
+  	.upload-btn {
+  		.upload-btn {
+  			display: block;
+  		}
+  		}
+  	}
+	
+	.upload-btn {
+		width: 100px;
+		height: 40px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin: -20px 0 0 -50px;
+		.upload-btn {
+			display: none;
+			width: 100px;
+			height: 40px;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			margin: -20px 0 0 -50px;
+		}
+		.input-file {
+			opacity: 0;
+			z-index: 5;
+			position: absolute;
+			left: -95%;
+			padding: 7px;
+			cursor: pointer;
+		}
+	}
+}
+
+// [ Responsive tables ]
+[data-rwd="table"] {
+  @media (max-width: 992px) {
+    .table-header { display: none; }
+    td {
+      padding: 10px;
+      display: block;
+      text-align: left;
+      line-height: 100%;
+      border-width: 0 !important;
+      & + td {
+        border-top: 1px solid #ddd !important;
+      }
+      &:nth-child(odd) {
+        background-color: #f9f9f9;
+      }
+
+      &:before {
+        font-weight: bold;
+        display: inline-block;
+        content: attr(data-th)": ";
+      }
+    }
+  }
+}
+
+// [ Helper classes ]
+.text-uc { text-transform: uppercase; }
+
+@media (min-width: 1200px) {
+  .pull-right-lg { float: right; }
+  .pull-left-lg  { float: left; }
+}
+@media (min-width: 998px) {
+  .pull-right-md { float: right; }
+  .pull-left-md  { float: left; }
+}
+
+@media (min-width: 768px) {
+  .pull-right-sm  { float: right; }
+  .pull-left-sm   { float: left; }
 }
