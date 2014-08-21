@@ -1,7 +1,7 @@
-Bootstrap Wishlist v0.1.0
+Bootstrap Wishlist v0.1.1
 ==================
 
-[Bootstrap Wishlist](http://elmahdim.com/demo/bootstrap-wl/) is a small lightweight library that provide the missing pieces of the most popular front-end framework [Twitter Bootstrap](http://getbootstrap.com/).
+[Bootstrap Wishlist Docs](http://elmahdim.com/demo/bootstrap-wl/docs.html)
 
 ---
 
@@ -23,11 +23,9 @@ Bootstrap Wishlist v0.1.0
 <!-- Bootstrap Wishlist Javascript -->
 <script src="path/bootstrap.wl.js"><script>
 ```
+---
 
-
-## Usage:
-
-### Dropdowns
+### Dropdowns - selected value
 
 ```html
 <div class="btn-group">
@@ -40,7 +38,20 @@ Bootstrap Wishlist v0.1.0
 </div>
 ```
 
----
+### File input - preview image
+
+```html
+<form>
+	<div class="preview-image">
+	<img src="placeholder.png" alt="..." data-preview="VALUE" class="img-rounded" />
+	<div class="upload-btn">
+		<button type="button" class="upload-btn btn btn-default">...</button>
+		<input type="file" id="SELECTOR" class="input-file" />
+	</div>
+	</div>
+</form>
+```
+
 
 ### Input group `:focus`
 
@@ -63,7 +74,17 @@ Bootstrap Wishlist v0.1.0
 </div>
 ```
 
----
+### Responsive tables
+
+Usage: `data-rwd="table"` `data-th=""`
+
+```html
+<table class="table table-striped table-bordered" data-rwd="table">
+	<tr class="table-header"><th>Table Header</th></tr>
+	<tr><td data-th="Table Header">...</td></tr>
+</table>
+```
+
 
 ## Outline Styled
 
@@ -74,6 +95,18 @@ Bootstrap Wishlist v0.1.0
 ### Alerts
 * Options:  `alert-outline`
 
+---
+
+### Changelog
+
+1. Aug 18, 2014: v0.1.0 - First release
+2. Aug 22, 2014: v0.1.1 - Add *Responsive tables*, *Helper classes* and *File input - preview image*
+
+---
+
+### Contributing
+
+Feel free to open an issue or send a pull request.
 
 ---
 
