@@ -1,7 +1,9 @@
-Bootstrap Wishlist v0.1.1
+Bootstrap Wishlist v0.1.2
 ==================
 
-[Bootstrap Wishlist Docs](http://elmahdim.com/demo/bootstrap-wl/docs.html)
+Free small wishlist library</strike> for Twitter <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a></p>
+
+[Bootstrap Wishlist Documentation](http://elmahdim.com/bootstrap.wl)
 
 ---
 
@@ -10,97 +12,28 @@ Bootstrap Wishlist v0.1.1
 - `$ git clone https://github.com/elmahdim/bootstrap-wishlist`
 - or [Download](/elmahdim/bootstrap-wishlist/archive/master.zip)
 
-## Install
+## Installation
+
+> Now you can use Bootstrap Wishlist individually ( bs.wl.*.css, bs.wl.*.scss, bs.wl.*.js )
 
 ```html
 <!-- Bootstrap core CSS -->
-<link rel="stylesheet" href="path/bootstrap.css">
+<link rel="stylesheet" href="path-to/bootstrap.css">
 <!-- Bootstrap Wishlist CSS -->
-<link rel="stylesheet" href="path/bootstrap.wl.css">
+<link rel="stylesheet" href="path-to/bs.wl.*.css">
 
 <!-- Bootstrap core Javascript -->
-<script src="path/bootstrap.js"><script>
+<script src="path-to/bootstrap.js"><script>
 <!-- Bootstrap Wishlist Javascript -->
-<script src="path/bootstrap.wl.js"><script>
+<script src="path-to/bs.wl.*.js"><script>
 ```
----
-
-### Dropdowns - selected value
-
-```html
-<div class="btn-group">
-	<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"> 
-	Select <span class="caret"></span></button>
-	<input type="hidden" class="selected-val" name="NAME"/>
-	<ul class="dropdown-menu dropdown-val" role="menu">
-		<li><a data-value="VALUE" href="#">...</a></li>
-	</ul>
-</div>
-```
-
-### File input - preview image
-
-```html
-<form>
-	<div class="preview-image">
-	<img src="placeholder.png" alt="..." data-preview="VALUE" class="img-rounded" />
-	<div class="upload-btn">
-		<button type="button" class="upload-btn btn btn-default">...</button>
-		<input type="file" id="SELECTOR" class="input-file" />
-	</div>
-	</div>
-</form>
-```
-
-
-### Input group `:focus`
-
-
-```html
-<!-- Default input group -->
-<div class="input-group default-input-group">
-	<input type="text" class="form-control" />
-	<span class="input-group-btn">
-		<button class="btn btn-default" type="button">Go</button>
-	</span> 
-</div>
-
-<!-- Prev input group -->
-<div class="input-group prev-input-group">
-	<input type="text" class="form-control" />
-	<span class="input-group-btn">
-		<button class="btn btn-default" type="button">Go</button>
-	</span> 
-</div>
-```
-
-### Responsive tables
-
-Usage: `data-rwd="table"` `data-th=""`
-
-```html
-<table class="table table-striped table-bordered" data-rwd="table">
-	<tr class="table-header"><th>Table Header</th></tr>
-	<tr><td data-th="Table Header">...</td></tr>
-</table>
-```
-
-
-## Outline Styled
-
-### Buttons
-* Options:  `btn-outline`
-
-
-### Alerts
-* Options:  `alert-outline`
-
 ---
 
 ### Changelog
 
 1. Aug 18, 2014: v0.1.0 - First release
 2. Aug 22, 2014: v0.1.1 - Add *Responsive tables*, *Helper classes* and *File input - preview image*
+3. Sep 18, 2014: v0.1.2 - New *Grid: Bootstrap columns equal height*, *Helper classes: Centered columns* and *Avatars* and improvements.
 
 ---
 
@@ -133,42 +66,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

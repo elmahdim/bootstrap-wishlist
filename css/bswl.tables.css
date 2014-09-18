@@ -1,0 +1,8 @@
+/* 
+ * Written for: Bootstrap Wishlist v0.1.2
+ * Author: Mahmoud Elmhadi
+ * Author Url: elmahdim.com
+ * Twitter   : @ElmahdiMahmoud
+ * Licensed under http://opensource.org/licenses/MIT
+ */
+@media (max-width: 992px){.responsive-table .table-header{display:none}.responsive-table td{display:block;text-align:left;line-height:100%;border-width:0 !important}.responsive-table td+td{border-top:1px solid #ddd !important}.responsive-table td:nth-child(odd){background-color:#f9f9f9}.responsive-table td:before{font-weight:bold;display:inline-block;content:attr(data-th) ": "}}

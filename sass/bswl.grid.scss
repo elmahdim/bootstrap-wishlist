@@ -1,0 +1,44 @@
+@import "../bootstrap/variables";
+
+%eq-cols {
+    float: none;
+    display: table-cell;
+    vertical-align: top;
+}
+
+.row {
+  &.eq-cols {
+    display: table;
+	
+	[class*="col"] {
+		&.valign-mid {
+			vertical-align: middle;
+		}
+	}	
+
+    [class*="col-xs"] {
+      @extend %eq-cols;
+    }
+
+    /* Small devices (tablets, 768px and up) */
+    @media (min-width: $screen-sm-min) {
+      [class*="col-sm"] {
+        @extend %eq-cols;
+      }
+    }
+
+    /* Medium devices (desktops, 992px and up) */
+    @media (min-width: $screen-md-min) {
+      [class*="col-md"] {
+        @extend %eq-cols;
+      }
+    }
+
+    /* Large devices (large desktops, 1200px and up) */
+    @media (min-width: $screen-lg-min) {
+      [class*="col-lg"] {
+        @extend %eq-cols;
+      }
+    }
+  }
+}

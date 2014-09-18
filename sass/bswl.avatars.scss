@@ -1,0 +1,22 @@
+@import "compass";
+@mixin avatar($size) {
+  width: $size;
+  height: $size;
+}
+
+// #avatars
+$avatar-xs: 20px  !default;
+$avatar-sm: 40px  !default;
+$avatar-md: 160px !default;
+$avatar-lg: 200px !default;
+
+// #avatars
+.avatar {
+  &.avatar-rounded { @include border-radius(4px);  }
+  &.avatar-circle  { @include border-radius(100%); }
+  
+  &.avatar-xs { @include avatar($avatar-xs); }
+  &.avatar-sm { @include avatar($avatar-sm); }
+  &.avatar-md { @include avatar($avatar-md); }
+  &.avatar-lg { @include avatar($avatar-lg); }
+}

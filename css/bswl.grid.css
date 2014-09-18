@@ -1,0 +1,8 @@
+/* 
+ * Written for: Bootstrap Wishlist v0.1.2
+ * Author: Mahmoud Elmhadi
+ * Author Url: elmahdim.com
+ * Twitter   : @ElmahdiMahmoud
+ * Licensed under http://opensource.org/licenses/MIT
+ */
+.row.eq-cols [class*="col-xs"]{float:none;display:table-cell;vertical-align:top}.row.eq-cols{display:table}.row.eq-cols [class*="col"].valign-mid{vertical-align:middle}

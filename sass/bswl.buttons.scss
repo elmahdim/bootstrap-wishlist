@@ -1,0 +1,20 @@
+@import "../bootstrap/variables";
+
+// [ Button Outline ]
+.btn {
+  &.btn-outline { 
+    &,
+    &:hover,
+    &:active,
+    &:focus  {
+    	background-color: transparent;
+    }
+
+    &.btn-default { color: inherit;  }
+    &.btn-primary { color: $brand-primary; }
+    &.btn-success { color: $brand-success; }
+    &.btn-info    { color: $brand-info; }
+    &.btn-warning { color: $brand-warning; }
+    &.btn-danger  { color: $brand-danger;  }
+  }
+}

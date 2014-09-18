@@ -1,0 +1,15 @@
+@import "../bootstrap/variables";
+
+// [ Alert Outline ]
+.alert {
+    &.alert-outline { 
+    background-color: transparent; 
+    
+    &.alert-default { color: inherit;  }
+    &.alert-primary { color: $brand-primary; }
+    &.alert-success { color: $brand-success; }
+    &.alert-info    { color: $brand-info;    }
+    &.alert-warning { color: $brand-warning; }
+    &.alert-danger  { color: $brand-danger;  }
+  }
+}

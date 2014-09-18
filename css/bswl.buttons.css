@@ -1,0 +1,9 @@
+/* 
+ * Written for: Bootstrap Wishlist v0.1.2
+ * Author: Mahmoud Elmhadi
+ * Author Url: elmahdim.com
+ * Twitter   : @ElmahdiMahmoud
+ * Licensed under http://opensource.org/licenses/MIT
+ */
+ 
+.btn.btn-outline,.btn.btn-outline:hover,.btn.btn-outline:active,.btn.btn-outline:focus{background-color:transparent}.btn.btn-outline.btn-default{color:inherit}.btn.btn-outline.btn-primary{color:#428bca}.btn.btn-outline.btn-success{color:#5cb85c}.btn.btn-outline.btn-info{color:#5bc0de}.btn.btn-outline.btn-warning{color:#f0ad4e}.btn.btn-outline.btn-danger{color:#d9534f}

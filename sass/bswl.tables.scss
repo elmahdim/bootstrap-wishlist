@@ -1,0 +1,24 @@
+// [ Responsive tables ]
+.responsive-table {
+  @media (max-width: 992px) {
+    .table-header { display: none; }
+    td {
+      display: block;
+      text-align: left;
+      line-height: 100%;
+      border-width: 0 !important;
+      & + td {
+        border-top: 1px solid #ddd !important;
+      }
+      &:nth-child(odd) {
+        background-color: #f9f9f9;
+      }
+
+      &:before {
+        font-weight: bold;
+        display: inline-block;
+        content: attr(data-th)": ";
+      }
+    }
+  }
+}
